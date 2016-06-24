@@ -1,0 +1,49 @@
+.feature {
+    background-color: rgb(255, 255, 255);
+    &_container_left {
+        display: table-cell;
+        vertical-align: middle;
+padding-right: 190px;
+    }
+    &_container_right {
+        display: table-cell;
+        vertical-align: middle;
+        &_subfirst {
+            padding-top: em(35px);
+        }
+        &_subSection {
+            padding-top: em(50px);
+            &_part {
+                padding-bottom: em(40px);
+            }
+            &_body {
+                display: table;
+                &_ico {
+                    display: table-cell;
+                    padding-right: em(20px);
+                    vertical-align: middle;
+                }
+                &_text {
+                    display: table-cell;
+                &_title{
+                	padding-bottom: em(10px);
+                }
+                }
+            }
+        }
+    }
+}
+.feature_second{
+background-color: rgb(245, 245, 245);
+&_container_left {
+     display: table-cell;
+  padding-right: 100px;
+  vertical-align: top;
+   
+}
+&_container_right {
+        display: table-cell;
+        vertical-align: top;
+    }
+
+}

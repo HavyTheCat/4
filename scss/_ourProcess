@@ -1,0 +1,49 @@
+.ourProcess{
+background-color: rgb(255, 255, 255);
+
+          &_awesome{
+display: block;
+text-align: center;
+                    &_title{
+	padding-top: em(108px);
+	padding-bottom: em(40px);
+	&_divider{
+	
+		
+	}
+}
+
+     &_body{
+     	margin-top: 35px;
+     }
+}
+
+
+
+&_scills_container{
+	padding-top: em(85px);
+	display: table;
+	&_design{
+		padding-right: em(60px);
+		text-align: center;
+		display: table-cell;
+	&_title{
+		padding-top: em(40px);
+		display: inline-block;
+	}
+	&_ico{
+		padding-top: em(30px);
+		display: inline-block;
+	}
+	&_body{
+		padding-top: em(30px);
+		display: inline-block;
+	}
+	&:last-child {
+                    padding-right: 0;
+                }
+	}
+}
+
+}
+

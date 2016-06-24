@@ -1,0 +1,41 @@
+.leader {
+    width: 100%;
+    background-image: url('../img/Untitled-1.jpg');
+    &__container_commercial {
+        padding-top: 7,8em;
+    }
+    &__container {
+        padding-bottom: em(90px);
+        display: table;
+        &_left {
+            @include respond-to(max-width,
+            1000px) {
+                padding-right: em(100px);
+            }
+            @include respond-to(max-width,
+            900px) {
+                display: block;
+                width: 100%;
+                margin-bottom: em(45px);
+            }
+            padding-right: em(150px);
+            display: table-cell;
+            width: to-percent(700px);
+            &-row {
+                margin-bottom: em(30px);
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        &__right {
+            @include respond-to(max-width,
+            900px) {
+                display: block;
+                width: 100%;
+            }
+            display: table-cell;
+            vertical-align: bottom;
+        }
+    }
+}

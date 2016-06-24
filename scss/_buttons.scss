@@ -1,0 +1,50 @@
+.btn {
+    border: 2px solid $color--white;
+    color: $color--white;
+    font-size: 15px;
+    background: transparent;
+    padding: em(15px, 15px) em(30px, 15px);
+    cursor: pointer;
+}
+
+.social-btn {
+    cursor: pointer;
+    height: 46px;
+    width: 60px;
+    background-image: url('../img/social-btn.png');
+    background-repeat: no-repeat;
+    background-position: 15px 0;
+    display: inline-block;
+    &_twitter {
+        background-position: -77px 0;
+    }
+    &_google {
+        background-position: -180px 0;
+    }
+    &_pinterest {
+        background-position: -273px 0;
+    }
+    &_instagram {
+        background-position: -374px 0;
+    }
+    &_stumble {
+        background-position: -481px 0;
+    }
+    &_rss {
+        background-position: -585px 0;
+    }
+}
+
+.cloudup-btn {
+     background-image: url('../img/cloudUp.png');
+    display:block;
+    height:40px;
+    width:40px;
+    }
+.design-btn {
+    margin: auto;
+     background-image: url('../img/design.png');
+    display:block;
+    height:70px;
+    width:70px;
+    }

@@ -1,0 +1,12 @@
+.logo{
+	width: 79px;
+	height: 24px;
+	background-image: url('../img/logo.png');
+     &_big {
+		width: 175px;
+		height: 60px;
+		display: block;
+		background-image: url('../img/big_logo.png');
+	}
+
+}
