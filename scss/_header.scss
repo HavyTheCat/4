@@ -3,13 +3,62 @@
 	background-color: $color--dark-black;
 	
 	&__container {
-		width: $size--container;
+		padding: em(22px) 0;
 		display: table;
+
+		width: to-percent(1100px, 1400px);
+		
 		margin: 0 auto;
-		padding: em(22px);
+		
+		color: #fff;
+
+		
 	}
 
 	&__logo {
+		display: table-cell;
+		display: inline-block;
+		height: 50px;
+		vertical-align: middle;
+		text-align: left;
 
 	}
+	&__menucontainer{
+		display: table-cell;
+		margin-right: em(-45px);
+		vertical-align: middle;
+		text-align: right;
+	}
+	&_menu{
+		
+		display: inline-block;
+		margin-right: em(45px);
+		font-size:$size--font-base;
+		color: $color--white;
+		font-family: 'Sans-serif';
+		text-decoration: none;
+		
+		
+
+	}
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
